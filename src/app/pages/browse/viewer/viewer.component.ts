@@ -1,7 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Comment } from '../../../shared/models/Comment';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { Comment } from '../../../shared/models/Comment';
+
 @Component({
   selector: 'app-viewer',
   templateUrl: './viewer.component.html',
@@ -11,7 +12,7 @@ export class ViewerComponent implements OnInit {
 
   @Input() imageInput: any;
 
-  
+  // commentObject: any = {};
   comments: Array<Comment> = [];
 
   commentsForm = this.createForm({
@@ -44,7 +45,7 @@ export class ViewerComponent implements OnInit {
         // Object
         // this.comments.push(Object.assign({}, this.commentObject));
 
-       // this.router.navigateByUrl('/gallery/successful/' + this.commentsForm.get('username')?.value);
+        this.router.navigateByUrl('/gallery/successful/' + this.commentsForm.get('username')?.value);
       }
     }
   }

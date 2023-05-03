@@ -10,8 +10,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { CartComponent } from './pages/cart/cart.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './shared/menu/menu.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,12 @@ import { MenuComponent } from './shared/menu/menu.component';
     MatSidenavModule,
     MatToolbarModule,
     BrowserModule,
-    FormsModule  ],
+    FormsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatListModule,
+    FlexLayoutModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

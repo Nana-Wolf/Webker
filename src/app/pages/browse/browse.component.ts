@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { BrowseObject } from '../../shared/constants/constants';
 
+import { Image } from '../../shared/models/Image';
+import { GalleryService } from '../../shared/services/gallery.service';
+
 
 @Component({
   selector: 'app-browse',
@@ -10,8 +13,11 @@ import { BrowseObject } from '../../shared/constants/constants';
 export class BrowseComponent implements OnInit{
   browseObject: Array<any> = BrowseObject;
   chosenImage: any;
+
   constructor(){}
+
   ngOnInit(): void {
+    
   }
   loadImage(imageObject: any) {
     this.chosenImage = imageObject;
