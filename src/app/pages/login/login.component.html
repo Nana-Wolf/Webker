@@ -14,6 +14,14 @@
 
     <mat-divider></mat-divider>
 
+    <mat-label for="newsRadio">Sign-up for newsletter</mat-label>
+    <mat-radio-group aria-label="Sign-up for newsletter" name="newsRadio">
+        <mat-radio-button value="1">Yes</mat-radio-button>
+        <mat-radio-button value="2">Not now</mat-radio-button>
+    </mat-radio-group>
+    
+    <mat-divider></mat-divider>
+
     <span>
         <span><button mat-raised-button color="primary" (click)="login()">Login</button></span>
         <span><button mat-raised-button color="primary" [routerLink]="'/signup'">Sign Up</button></span>

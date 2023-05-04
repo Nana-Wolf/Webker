@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatInputModule,
     MatButtonModule,
     MatProgressSpinnerModule,
-    MatDividerModule
+    MatDividerModule,
+    MatRadioModule
   ]
 })
 export class LoginModule { }
