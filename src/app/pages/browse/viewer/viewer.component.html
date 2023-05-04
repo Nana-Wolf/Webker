@@ -1,5 +1,7 @@
 <div class="container" *ngIf="imageInput">
-    <img class="galleryImage" [src]="'assets/' + imageInput.id + '.jpg'" />
+    <div class="singlePic">
+        <img class="galleryImage" [src]="'assets/' + imageInput.id + '.jpg'" />
+    </div>
     <div class="break"></div>
     <div>{{imageInput.user_name}}</div>
     <div class="break"></div>

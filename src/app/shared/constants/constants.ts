@@ -1,32 +1,32 @@
 export const BrowseObject = [
     {
-        'id': 'OQyRttOV4l8',
-        'user_name': 'Gina Smith',
-        'user_url': 'https://unsplash.com/@ginasmithphotography?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit',
-        'photo_url': 'https://unsplash.com/photos/OQyRttOV4l8?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit'
+        'id': 'Pink',
+        'user_name': 'Pink bikini',
+        'user_url': '5999 ft',
+        'photo_url': 'Gyönyörű rózsaszín, kényelmes'
     },
     {
-        'id': '5XP-n_Xqqv8',
-        'user_name': 'Jie Wang',
-        'user_url': 'https://unsplash.com/@itworkonline?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit',
-        'photo_url': 'https://unsplash.com/photos/5XP-n_Xqqv8?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit'
+        'id': 'Yellow',
+        'user_name': 'Yellow bikini',
+        'user_url': '7999 ft',
+        'photo_url': 'Virító sárga szépség'
     },
     {
-        'id': 'Shf_B7x8gDA',
-        'user_name': 'Emmalee Couturier',
-        'user_url': 'https://unsplash.com/@emmcout?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit',
-        'photo_url': 'https://unsplash.com/photos/Shf_B7x8gDA?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit'
+        'id': 'Black',
+        'user_name': 'Black swimsuit',
+        'user_url': '1999 ft',
+        'photo_url': 'Alakkiemelő'
     },
     {
-        'id': 'lFAhbzmvpak',
-        'user_name': 'Kristaps Ungurs',
-        'user_url': 'https://unsplash.com/@kristapsungurs?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit',
-        'photo_url': 'https://unsplash.com/photos/lFAhbzmvpak?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit'
+        'id': 'DarkGreen',
+        'user_name': 'Green bikini',
+        'user_url': '2999 ft',
+        'photo_url': 'Erősen ajánlott barna szeműeknek'
     },
     {
-        'id': 'eFXho78pQH8',
-        'user_name': 'Deniz Demirci',
-        'user_url': 'https://unsplash.com/@ddography?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit',
-        'photo_url': 'https://unsplash.com/photos/eFXho78pQH8?utm_source=unsample&utm_medium=referral&utm_campaign=api-credit'
+        'id': 'Green',
+        'user_name': 'Green bikini',
+        'user_url': '6999 ft',
+        'photo_url': 'Jól fog állni a netes képeiden'
     }
 ]
