@@ -37,10 +37,16 @@
             <!-- <textarea rows="10" cols="50" [(ngModel)]="commentObject['comment']"></textarea> -->
             <textarea rows="10" cols="50" formControlName="comment"></textarea>
         </div>
-
+        <div class="slider">
+            <label for="mySlider">Do you like it?</label>
+            <mat-slider min="0" max="100" step="1" showTickMarks discrete [displayWith]="formatLabel">
+                <input matSliderThumb name="mySlider">
+            </mat-slider>
+        </div>
         <div class="break"></div>
         <div>
-            <button type="submit">ADD</button>
+            <button type="submit">Comment</button>
+            <button>To Cart</button>
         </div>
     </form>
 </div>
