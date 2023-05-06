@@ -2,7 +2,6 @@
     font-size: 300%;
     text-align: center;
     top: 50%;
-    
 }
 
 .thirdCard{
@@ -10,5 +9,11 @@
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 33dvh;
+}
+.back{
+  background-image: url("../../../assets/bg1.jpg");
+  font-size: 350%;
+  text-align: center;
+  height: 26dvh;
 }

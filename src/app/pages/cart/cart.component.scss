@@ -1,24 +1,30 @@
-.main{
-    
-}
-.mat-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  background-color: #f5f5f5;
-  vertical-align: middle;
-}
-
-.mat-card-header { 
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 16px;
+img{
+  width: 100%;
+  height: auto;
   
 }
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+mat-card{
+  width: 33%;
+  font-size: 15pt;
+}
 
-img{
-    width: 50%;
-    height: auto;
+mat-card-header { 
+  background: #cfa61f;
+
+}
+mat-card-actions{
+  font-weight: bold;
+  background: #2bb773;
+}
+mat-card-footer{
+  margin-bottom: 15px;
+  background: #2b9db7;
+}
+button{
+  margin-left: 35%;
 }

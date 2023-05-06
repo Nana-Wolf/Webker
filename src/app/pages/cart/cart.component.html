@@ -1,25 +1,32 @@
 <div class="main">
-    <mat-card>
+    <mat-card class="left">
         <mat-card-header>Item 1</mat-card-header>
         <mat-card-content>
             <img mat-card-image src="assets/Pink.jpg"/>
         </mat-card-content>
-        <mat-card-content>
+        <mat-card-actions>
             Pink bikini
-        </mat-card-content>
+            <button mat-fab color="primary" >
+                <mat-icon>delete</mat-icon>
+              </button>
+        </mat-card-actions>
         <mat-card-footer>
             5999 ft
         </mat-card-footer>
     </mat-card>
 
-    <mat-card>
+    <mat-card class="right">
         <mat-card-header>Item 2</mat-card-header>
         <mat-card-content>
             <img mat-card-image src="assets/Black.jpg"/>
         </mat-card-content>
-        <mat-card-content>
+        <mat-card-actions>
             Black bikini
-        </mat-card-content>
+            <button mat-fab color="primary" >
+                <mat-icon>delete</mat-icon>
+              </button>
+        </mat-card-actions>
+        
         <mat-card-footer>
             1999 ft
         </mat-card-footer>
