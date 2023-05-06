@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 import { MatSidenav } from '@angular/material/sidenav';
@@ -10,7 +10,7 @@ import { AuthService } from './shared/services/auth.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit, OnDestroy{
   title = 'webshop';
   routes: Array<string> = [];
   page = '';
@@ -24,8 +24,6 @@ export class AppComponent implements OnInit{
     // fat-arrow
     this.routes = this.router.config.map(conf => conf.path) as string[];
 
-    // rxjs - reaktív programozás
-    // subscribe
     this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((evts: any) => {
       const currentPage = (evts.urlAfterRedirects as string).split('/')[1] as string;
       if (this.routes.includes(currentPage)) {
@@ -61,4 +59,9 @@ export class AppComponent implements OnInit{
       console.error(error);
     });
   }
+
+  ngOnDestroy(){
+    this.logout();
+  }
+
 }

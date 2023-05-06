@@ -21,7 +21,7 @@ export class SignupComponent {
     })
   });
 
-  emailString = String(this.signUpForm.get('email')?.value);
+  emailString = String(this.signUpForm.get('email')?.value?.trim);
   pwdString = String(this.signUpForm.get('password')?.value);
 
   constructor(private router: Router,private location: Location, private authService: AuthService) { }
