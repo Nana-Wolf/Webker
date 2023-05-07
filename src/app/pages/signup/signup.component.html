@@ -1,6 +1,7 @@
 <div class="main_component">
+    <h1>Register an account!</h1>
     <div class="div-flex">
-        <h1>Register an account!</h1>
+        
         <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
             <mat-form-field>
                 <mat-label for="email">Email: </mat-label>
@@ -34,13 +35,13 @@
                   
 
             </div>
-            <div>
+            
                 <span class="buttons">
                     <button mat-raised-button color="primary" type="submit">Register</button>
                 </span><span class="buttons">
                     <button mat-raised-button color="primary" (click)="goBack()">Back</button>
                 </span>
-            </div>
+            
         </form>
 
     

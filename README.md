@@ -2,6 +2,8 @@
 
 ##Megvalósítva:
 
+Firebase hosting
+
 Adatmodell definiálása
 
 Alkalmazás felbontása megfelelő
