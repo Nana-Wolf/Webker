@@ -1,6 +1,6 @@
 # BATHE - Fürdőruha webshop
 
-##Megvalósítva:
+## Megvalósítva:
 
 Firebase hosting
 
